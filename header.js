@@ -26,7 +26,7 @@ function setupHeaderLogic() {
     // Mobile 'Product' submenu toggle
     const productToggle = mobileMenu?.querySelector('button[aria-controls="products"]');
     const productMenu = mobileMenu?.querySelector('#products');
-    const productIcon = productToggle?.querySelector('svg');
+    const productIcon = productToggle?.querySelector('i');
 
     if (productToggle && productMenu && productIcon) {
         productMenu.style.display = 'none';
