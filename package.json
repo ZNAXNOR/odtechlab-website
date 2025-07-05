@@ -15,7 +15,7 @@
   "type": "commonjs",
   "main": "aboutCompany.js",
   "scripts": {
-    "build:css": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch"
+    "build:css": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch --minify"
   },
   "dependencies": {
     "@tailwindcss/cli": "^4.1.11",

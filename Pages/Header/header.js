@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    fetch('/Header/header.html')
+    fetch('/Pages/Header/header.html')
         .then(res => res.text())
         .then(html => {
             document.getElementById('header-placeholder').innerHTML = html;
