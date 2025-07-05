@@ -475,6 +475,9 @@
   .list-image-\[url\(\/svg\/ChevronRight\.svg\)\] {
     list-style-image: url(/svg/ChevronRight.svg);
   }
+  .list-image-\[url\(svg\/ChevronRight\.svg\)\] {
+    list-style-image: url(svg/ChevronRight.svg);
+  }
   .auto-rows-fr {
     grid-auto-rows: minmax(0, 1fr);
   }
@@ -643,6 +646,12 @@
   }
   .bg-\[url\(\/svg\/aboutCompany\.svg\)\] {
     background-image: url(/svg/aboutCompany.svg);
+  }
+  .bg-\[url\(svg\/WhoCanUseService\.svg\)\] {
+    background-image: url(svg/WhoCanUseService.svg);
+  }
+  .bg-\[url\(svg\/aboutCompany\.svg\)\] {
+    background-image: url(svg/aboutCompany.svg);
   }
   .from-brand-red {
     --tw-gradient-from: var(--color-brand-red);
