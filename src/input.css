@@ -1,26 +1,6 @@
 @import "tailwindcss";
 
 @theme {
-	--color-brand-red: #e94235;
-	--color-brand-yellow: #fff8e2;
-}
-
-/* Your custom animation */
-@keyframes scroll {
-	from {
-		transform: translateX(0);
-	}
-	to {
-		transform: translateX(var(--scroll-end));
-	}
-}
-.animate-scroll {
-	animation-timing-function: linear;
-	animation-iteration-count: infinite;
-}
-#logo-track {
-	will-change: transform;
-}
-#logo-track:active {
-	cursor: grabbing;
+    --color-brand-red: #e94235;
+    --color-brand-yellow: #fff8e2;
 }
