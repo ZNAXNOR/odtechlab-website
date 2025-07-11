@@ -41,75 +41,171 @@
     </p>
 
     <!-- Services Grid -->
-    <div class="mx-auto mt-16 grid max-w-7xl grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 lg:grid-cols-2">
+    <div class="mx-auto mt-16 grid max-w-7xl grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-1">
         <!-- Data & Analytics -->
-        <section
-            id="data-analytics"
-            class="border-brand-red flex flex-col items-center border-3 p-8 ring-1 ring-gray-900/10 sm:p-10"
-        >
-            <img src="svg/DataNAnalytics.svg" alt="icon" class="mb-4 h-24 w-24" width="158" height="48" />
-            <span class="text-center text-xl font-bold tracking-tight text-gray-900">Data & Analytics</span>
-            <ul class="mt-8 list-image-[url(/svg/ChevronRight.svg)] space-y-2 text-sm/relaxed text-gray-900">
-                <li>Data Analytics & Insights</li>
-                <li>Ad Operations</li>
-                <li>User Experience</li>
-                <li>Frontend Development</li>
-                <li>Dashboard Development</li>
-                <li>Conversion Rate Optimization</li>
-            </ul>
-        </section>
+        <div class="group overflow-hidden transition-transform hover:-translate-y-1">
+            <section
+                id="data-analytics"
+                class="animate-rotate-border hover:shadow-brand-red/50 from-brand-red h-full w-full bg-conic/[from_var(--border-angle)] from-60% via-orange-400 via-80% to-yellow-600 to-100% p-0 shadow-lg transition group-hover:p-1"
+            >
+                <div
+                    class="border-brand-red flex h-full flex-col items-center border-4 bg-white p-8 text-black/50 group-hover:border-none sm:p-10 lg:flex-row lg:items-center lg:justify-center lg:space-x-8"
+                >
+                    <!-- image container -->
+                    <div class="flex items-center justify-center p-6 lg:w-1/3 lg:flex-shrink-0">
+                        <img
+                            src="svg/DataNAnalytics.svg"
+                            alt="Data & Analytics Icon"
+                            class="object-contain transition-transform duration-300 group-hover:scale-105"
+                            width="158"
+                            height="48"
+                        />
+                    </div>
+
+                    <!-- vertical divider for large screens only -->
+                    <div class="hidden h-full w-px bg-gray-200 lg:block"></div>
+
+                    <!-- Text section -->
+                    <div class="flex flex-col justify-center p-8 lg:w-2/3">
+                        <h2 class="text-2xl font-extrabold text-gray-900">Data &amp; Analytics</h2>
+                        <ul
+                            class="ms-3 mt-8 list-image-[url(/svg/ChevronRight.svg)] space-y-2 text-base/relaxed font-medium text-gray-900 lg:columns-2 lg:space-y-0 lg:gap-x-4"
+                        >
+                            <li>Data Analytics & Insights</li>
+                            <li>Ad Operations</li>
+                            <li>User Experience</li>
+                            <li>Frontend Development</li>
+                            <li>Dashboard Development</li>
+                            <li>Conversion Rate Optimization</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </div>
 
         <!-- Earned Media -->
-        <section
-            id="earned-media"
-            class="border-brand-red flex flex-col items-center border-3 p-8 ring-1 ring-gray-900/10 sm:p-10"
-        >
-            <img src="svg/EarnedMedia.svg" alt="icon" class="mb-4 h-24 w-24" width="158" height="48" />
-            <span class="text-center text-xl font-bold tracking-tight text-gray-900">Earned Media</span>
-            <ul class="mt-8 list-image-[url(/svg/ChevronRight.svg)] space-y-2 text-sm/relaxed text-gray-900">
-                <li>Search Engine Optimization</li>
-                <li>Content Marketing</li>
-                <li>Organic Social Media</li>
-                <li>AI Search Optimization</li>
-                <li>Email Marketing</li>
-                <li>App Store Optimization</li>
-                <li>Digital PR</li>
-                <li>Influencer Marketing</li>
-            </ul>
-        </section>
+        <div class="group overflow-hidden transition-transform hover:-translate-y-1">
+            <section
+                id="earned-media"
+                class="animate-rotate-border hover:shadow-brand-red/50 from-brand-red h-full w-full bg-conic/[from_var(--border-angle)] from-60% via-orange-400 via-80% to-yellow-600 to-100% p-0 shadow-lg transition group-hover:p-1"
+            >
+                <div
+                    class="border-brand-red flex h-full flex-col items-center border-4 bg-white p-8 text-black/50 group-hover:border-none sm:p-10 lg:flex-row lg:items-center lg:justify-center lg:space-x-8"
+                >
+                    <!-- image container -->
+                    <div class="flex items-center justify-center p-6 lg:w-1/3 lg:flex-shrink-0">
+                        <img
+                            src="svg/EarnedMedia.svg"
+                            alt="Earned Media Icon"
+                            class="object-contain transition-transform duration-300 group-hover:scale-105"
+                            width="158"
+                            height="48"
+                        />
+                    </div>
+
+                    <!-- vertical divider for large screens only -->
+                    <div class="hidden h-full w-px bg-gray-200 lg:block"></div>
+
+                    <!-- Text section -->
+                    <div class="flex flex-col justify-center p-8 lg:w-2/3">
+                        <h2 class="text-2xl font-extrabold text-gray-900">Earned Media</h2>
+                        <ul
+                            class="ms-3 mt-8 list-image-[url(/svg/ChevronRight.svg)] space-y-2 text-base/relaxed font-medium text-gray-900 lg:columns-2 lg:space-y-0 lg:gap-x-4"
+                        >
+                            <li>Search Engine Optimization</li>
+                            <li>Content Marketing</li>
+                            <li>Organic Social Media</li>
+                            <li>AI Search Optimization</li>
+                            <li>Email Marketing</li>
+                            <li>App Store Optimization</li>
+                            <li>Digital PR</li>
+                            <li>Influencer Marketing</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </div>
 
         <!-- Paid Media -->
-        <section
-            id="paid-media"
-            class="border-brand-red flex flex-col items-center border-3 p-8 ring-1 ring-gray-900/10 sm:p-10"
-        >
-            <img src="svg/PaidMedia.svg" alt="icon" class="mb-4 h-24 w-24" width="158" height="48" />
-            <span class="text-center text-xl font-bold tracking-tight text-gray-900">Paid Media</span>
-            <ul class="mt-8 list-image-[url(/svg/ChevronRight.svg)] space-y-2 text-sm/relaxed text-gray-900">
-                <li>Programmatic & Display</li>
-                <li>Paid Search</li>
-                <li>Paid Social</li>
-                <li>Marketplaces</li>
-                <li>Streaming</li>
-                <li>Media Strategy & Planning</li>
-            </ul>
-        </section>
+        <div class="group overflow-hidden transition-transform hover:-translate-y-1">
+            <section
+                id="paid-media"
+                class="animate-rotate-border hover:shadow-brand-red/50 from-brand-red h-full w-full bg-conic/[from_var(--border-angle)] from-60% via-orange-400 via-80% to-yellow-600 to-100% p-0 shadow-lg transition group-hover:p-1"
+            >
+                <div
+                    class="border-brand-red flex h-full flex-col items-center border-4 bg-white p-8 text-black/50 group-hover:border-none sm:p-10 lg:flex-row lg:items-center lg:justify-center lg:space-x-8"
+                >
+                    <!-- image container -->
+                    <div class="flex items-center justify-center p-6 lg:w-1/3 lg:flex-shrink-0">
+                        <img
+                            src="svg/PaidMedia.svg"
+                            alt="Paid Media Icon"
+                            class="object-contain transition-transform duration-300 group-hover:scale-105"
+                            width="158"
+                            height="48"
+                        />
+                    </div>
+
+                    <!-- vertical divider for large screens only -->
+                    <div class="hidden h-full w-px bg-gray-200 lg:block"></div>
+
+                    <!-- Text section -->
+                    <div class="flex flex-col justify-center p-8 lg:w-2/3">
+                        <h2 class="text-2xl font-extrabold text-gray-900">Paid Media</h2>
+                        <ul
+                            class="ms-3 mt-8 list-image-[url(/svg/ChevronRight.svg)] space-y-2 text-base/relaxed font-medium text-gray-900 lg:columns-2 lg:space-y-0 lg:gap-x-4"
+                        >
+                            <li>Programmatic & Display</li>
+                            <li>Paid Search</li>
+                            <li>Paid Social</li>
+                            <li>Marketplaces</li>
+                            <li>Streaming</li>
+                            <li>Media Strategy & Planning</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </div>
 
         <!-- Creative -->
-        <section
-            id="creative"
-            class="border-brand-red flex flex-col items-center border-3 p-8 ring-1 ring-gray-900/10 sm:p-10"
-        >
-            <img src="svg/Creative.svg" alt="icon" class="mb-4 h-24 w-24" width="158" height="48" />
-            <span class="text-center text-xl font-bold tracking-tight text-gray-900">Creative</span>
-            <ul class="mt-8 list-image-[url(/svg/ChevronRight.svg)] space-y-2 text-sm/relaxed text-gray-900">
-                <li>Website Design</li>
-                <li>Graphic & Motion Design</li>
-                <li>Performance Creative</li>
-                <li>Branding</li>
-                <li>Content Production</li>
-                <li>Audio Production</li>
-            </ul>
-        </section>
+        <div class="group overflow-hidden transition-transform hover:-translate-y-1">
+            <section
+                id="creative"
+                class="animate-rotate-border hover:shadow-brand-red/50 from-brand-red h-full w-full bg-conic/[from_var(--border-angle)] from-60% via-orange-400 via-80% to-yellow-600 to-100% p-0 shadow-lg transition group-hover:p-1"
+            >
+                <div
+                    class="border-brand-red flex h-full flex-col items-center border-4 bg-white p-8 text-black/50 group-hover:border-none sm:p-10 lg:flex-row lg:items-center lg:justify-center lg:space-x-8"
+                >
+                    <!-- image container -->
+                    <div class="flex items-center justify-center p-6 lg:w-1/3 lg:flex-shrink-0">
+                        <img
+                            src="svg/Creative.svg"
+                            alt="Creative Icon"
+                            class="object-contain transition-transform duration-300 group-hover:scale-105"
+                            width="158"
+                            height="48"
+                        />
+                    </div>
+
+                    <!-- vertical divider for large screens only -->
+                    <div class="hidden h-full w-px bg-gray-200 lg:block"></div>
+
+                    <!-- Text section -->
+                    <div class="flex flex-col justify-center p-8 lg:w-2/3">
+                        <h2 class="text-2xl font-extrabold text-gray-900">Creative</h2>
+                        <ul
+                            class="ms-3 mt-8 list-image-[url(/svg/ChevronRight.svg)] space-y-2 text-base/relaxed font-medium text-gray-900 lg:columns-2 lg:space-y-0 lg:gap-x-4"
+                        >
+                            <li>Website Design</li>
+                            <li>Graphic & Motion Design</li>
+                            <li>Performance Creative</li>
+                            <li>Branding</li>
+                            <li>Content Production</li>
+                            <li>Audio Production</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </div>
     </div>
 </section>
