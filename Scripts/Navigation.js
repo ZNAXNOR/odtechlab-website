@@ -6,6 +6,6 @@ window.addEventListener("load", () => {
             if (el) {
                 el.scrollIntoView({ behavior: "smooth" })
             }
-        }, 20) // adjust delay if needed
+        }, 100) // adjust delay if needed
     }
 })
