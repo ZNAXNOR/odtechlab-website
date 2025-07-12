@@ -8,18 +8,22 @@ document.addEventListener("DOMContentLoaded", function () {
 })
 
 function setupHeaderLogic() {
-    // Mobile menu toggle
     const openMenuBtn = document.querySelector('button[aria-label="Open main menu"]')
     const closeMenuBtn = document.querySelector('button[aria-label="Close menu"]')
     const mobileMenu = document.querySelector('header > .lg\\:hidden[role="dialog"]')
 
     if (openMenuBtn && mobileMenu && closeMenuBtn) {
-        openMenuBtn.addEventListener("click", () => {
-            mobileMenu.classList.remove("hidden")
-        })
+        openMenuBtn.addEventListener("click", () => mobileMenu.classList.remove("hidden"))
+        closeMenuBtn.addEventListener("click", () => mobileMenu.classList.add("hidden"))
+    }
 
-        closeMenuBtn.addEventListener("click", () => {
-            mobileMenu.classList.add("hidden")
+    // Close mobile menu when any link clicked
+    const menuLinks = mobileMenu?.querySelectorAll("a[href]")
+    if (menuLinks) {
+        menuLinks.forEach((link) => {
+            link.addEventListener("click", () => {
+                mobileMenu.classList.add("hidden")
+            })
         })
     }
 
